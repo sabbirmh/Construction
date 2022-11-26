@@ -1,0 +1,182 @@
+// footer ===============================================
+
+#footer {
+    padding: 60px 0 20px;
+
+    .container {
+        .footer_first_content {
+            .logo_text {
+                h4 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 38px;
+                    letter-spacing: -0.06em;
+                    color: #18A7B9;
+                }
+            }
+
+            .text {
+                margin-top: 30px;
+
+                p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #6B6B6B;
+
+                    span {
+                        display: block;
+                    }
+                }
+            }
+
+
+
+            .social {
+                margin-top: 30px;
+
+                a {
+                    padding: 8px 8px;
+                    background: #18A7B9;
+                    color: #fff;
+                    font-size: 15px;
+                    border-radius: 5px;
+                }
+
+                .left {
+                    margin-left: 10px;
+                }
+            }
+
+
+        }
+
+        .footer_second_content {
+            .head {
+                h4 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #313131;
+                    margin-bottom: 30px;
+                }
+
+            }
+
+            .all_resource {
+                p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #6B6B6B;
+                    margin: 12px 0;
+                }
+            }
+
+
+        }
+
+        .footer_third_content {
+            .head {
+                h4 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #313131;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .all_company {
+                p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #6B6B6B;
+                    margin: 12px 0;
+                }
+            }
+        }
+
+        .footer_fouth_content {
+            h4 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                color: #313131;
+                margin-bottom: 30px;
+            }
+
+            .mail {
+                position: relative;
+
+                input {
+                    height: 40px;
+                    outline: none;
+                    padding: 0 10px;
+                    font-size: 13px;
+                    color: #6B6B6B;
+                    margin: 8px 0;
+                    background: #F9F9F9;
+                    border: 1px solid #F9F9F9;
+                    width: 70%;
+                    transition: all linear .3s;
+
+                }
+
+                a {
+                    position: absolute;
+                    right: 77px;
+                    top: 27px;
+                    transform: translate(-50%, -50%);
+                    color: #313131;
+                    padding: 1px 5px;
+                    border: 1px solid #18A7B9;
+                    border-radius: 50%;
+                    color: #18A7B9;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .copy {
+            position: relative;
+            margin-top: 50px;
+
+            &:after {
+                position: absolute;
+                content: '';
+                left: 0;
+                bottom: 34px;
+                height: 1px;
+                width: 100%;
+                background: #C2C2C2;
+            }
+
+            p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                color: #C2C2C2;
+                
+            }
+        }
+    }
+}
+// footer ===============================================

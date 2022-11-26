@@ -1,0 +1,1837 @@
+/* =======******====== responsive Part ======******====== */
+/* =======******====== responsive Part ======******====== */
+
+@media (min-width: 1400px) {}
+
+
+// large ==============================///
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+//==========================   == ========== large ====== ==  ============================ //
+//==========================   == ========== large ====== ==  ============================ //
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    // =====================  menu part part ===================//
+    // =====================  menu part part ===================//
+
+    .main_menu {
+        position: absolute;
+        left: 0;
+        top: 70px;
+        z-index: 999;
+        width: 100%;
+    }
+
+    .menu_fix {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background: #18A7B9;
+    }
+
+
+  
+    // =====================  banner part part ===================//
+    // =====================  banner part part ===================//
+
+    #banner_part .container .shape_image .shape_img_one {
+        top: -440px;
+        left: 25px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content h4 {
+        font-size: 52px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content p {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    #banner_part .container .banner_left .left_shape img {
+        height: 378px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range {
+        margin-top: 39px;
+    }
+
+
+ 
+    // =====================  client part ===================//
+    // =====================  client part ===================//
+
+    #client_part .container .all_logo {
+        padding: 50px 50px;
+        background: #FAFAFA;
+        border-radius: 60px;
+        margin-top: -11px;
+    }
+
+
+
+    // =====================  choose part ===================//
+    // =====================  choose part ===================//
+
+    #choose .container .choose_right h2 {
+        font-size: 45px;
+    }
+
+    #choose .container .choose_left p {
+        font-size: 16px;
+    }
+
+
+    // =====================  recidence part ===================//
+    // =====================  recidence part ===================//
+
+    #recidence .container .recidence_left {
+        width: 468px;
+    }
+
+    #recidence {
+        padding: 30px 0 37px;
+    }
+
+
+
+    // =====================  engineer part ===================//
+    // =====================  engineer part ===================//
+
+
+    #engineer .container .head h4 {
+        font-size: 45px;
+    }
+
+    #engineer .container .head p {
+        font-size: 18px;
+    }
+
+    #engineer .container .engineer_slider .eng_box .eng_img img {
+        left: 155px;
+    }
+
+
+    // =====================  massage part ===================//
+    // =====================  massage part ===================//
+
+    #message_part {
+        padding: 50px 0 40px;
+    }
+
+
+    // =====================  contact part ===================//
+    // =====================  contact part ===================//
+
+    #contact_part .container .head h4 {
+        font-size: 48px;
+    }
+
+    #contact_part .container .head p {
+        font-size: 18px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+
+    // =====================  subscribe part ===================//
+    // =====================  subscribe part ===================//
+
+    #subscribe .container .head h4 {
+        font-size: 50px;
+    }
+
+    #subscribe .container .head p {
+        font-size: 18px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+}
+
+
+
+//==========================   == ========== medium ====== ==  ============================ //
+//==========================   == ========== medium ====== ==  ============================ //
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    // =====================  manu part ===================//
+    // =====================  manu part ===================//
+
+    .main_menu .navbar-brand {
+        color: #fafafa;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .main_menu {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        background: #18A7B9;
+    }
+
+    .main_menu .menu_item ul li a {
+        color: #313131;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        -webkit-transition: all linear .3s;
+        transition: all linear .3s;
+        margin-top: 3px;
+    }
+
+
+    .main_menu .menu_item ul li a {
+        color: #fafafa;
+    }
+
+    .main_menu .menu_item ul li .current {
+        color: #fff;
+    }
+
+
+
+    // =====================  banner part ===================//
+    // =====================  banner part ===================//
+
+    #banner_part .container .banner_right .main_img img {
+        border-bottom-left-radius: 0;
+        margin-top: -6px;
+        height: 600px;
+
+    }
+
+    #banner_part .container .banner_right .main_img {
+        position: relative;
+    }
+
+    #banner_part .container .banner_right .main_img .overley {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: -6px;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    #banner_part .container .shape_image {
+        position: relative;
+        z-index: -1;
+        display: none;
+    }
+
+
+    #banner_part .container .banner_left {
+        position: relative;
+    }
+
+    #banner_part .container .banner_left .banner_left_content {
+        position: absolute;
+        left: 50%;
+        top: -415px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    #banner_part .container .banner_left .banner_left_content h4 {
+        color: #fafafa;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    #banner_part .container .banner_left .banner_left_content p {
+        color: #fafafa;
+        font-size: 16px;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .content_button .explore {
+        padding: 12px 35px;
+        margin-top: 30px;
+        -webkit-transition: all linear .3s;
+        transition: all linear .3s;
+    }
+
+
+    #banner_part .container .banner_left .banner_left_content .content_button a {
+        color: #fafafa;
+        font-size: 16px;
+        text-align: center;
+        padding: 12px 20px;
+        -webkit-transition: all linear .3s;
+        transition: all linear .3s;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .content_button {
+        text-align: center;
+    }
+
+    #banner_part .container .banner_left .left_shape {
+        display: none;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range h3 {
+
+        font-size: 38px;
+        color: #fafafa;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range {
+        margin-top: 1px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range h3 span {
+        font-size: 10px;
+        color: #f1f1f1;
+    }
+
+    #banner_part {
+        padding: 30px 0 10px;
+    }
+
+
+
+    // =====================  Client part ===================//
+    // =====================  Client part ===================//
+
+    #client_part .container .all_logo {
+        padding: 30px 50px;
+        background: #FAFAFA;
+        border-radius: 60px;
+        margin-top: -80px;
+    }
+
+
+
+    // =====================  choose part ===================//
+    // =====================  choose part ===================//
+
+    #choose {
+        padding: 15px 0 20px;
+    }
+
+    #choose .container .choose_right h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    #choose .container .choose_left p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #choose .container .choose_left .submit {
+        text-align: center;
+    }
+
+    #choose .container .choose_left a {
+        padding: 13px 50px;
+    }
+
+
+
+    // =====================  recidence part ===================//
+    // =====================  recidence part ===================//
+
+
+    #recidence .container .recidence_left {
+        width: 696px;
+        position: relative;
+    }
+
+    #recidence .container .recidence_left img {
+        height: 700px;
+    }
+
+    #recidence .container .all_content {
+        position: relative;
+    }
+
+    #recidence .container .all_content .recidence_right {
+        position: absolute;
+        left: 332px;
+        top: -429px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    #recidence .container .recidence_right .second_content {
+        margin-top: 70px;
+    }
+
+    #recidence .container .recidence_right .third_content {
+        margin-top: 70px;
+    }
+
+    #recidence .container .recidence_right .third_content h4 {
+        color: #FAFAFA;
+    }
+
+    #recidence .container .recidence_right .third_content p {
+        color: #f1f1f1;
+    }
+
+    #recidence .container .recidence_right .second_content h4 {
+        color: #FAFAFA;
+    }
+
+    #recidence .container .recidence_right .second_content p {
+        color: #f1f1f1;
+    }
+
+
+    #recidence .container .recidence_right .first_content h4 {
+        color: #FAFAFA;
+    }
+
+    #recidence .container .recidence_right .first_content p {
+        color: #f1f1f1;
+    }
+
+    #recidence {
+        padding: 30px 0 40px;
+    }
+
+
+
+    // =====================  engineer part ===================//
+    // =====================  engineer part ===================//
+
+
+    #engineer .container .head h4 {
+        font-size: 38px;
+    }
+
+    #engineer .container .head p {
+        font-size: 16px;
+    }
+
+    #engineer .container .engineer_slider .eng_box .eng_img img {
+        left: 110px;
+    }
+
+    #engineer .container .engineer_slider .eng_box h6 {
+        font-size: 16px;
+    }
+
+    #engineer .container .engineer_slider {
+        .prv_arr {
+            left: 42%;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    }
+
+
+
+
+    // =====================  massage part ===================//
+    // =====================  massage part ===================//
+
+    #message_part .container .massage_banner .massege h2 {
+        font-size: 33px;
+    }
+
+    #message_part .container .massage_banner .massege h2::before {
+        position: absolute;
+        content: '';
+        left: 70px;
+        top: 86px;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        -webkit-clip-path: polygon(26% 0, 69% 0, 56% 99%, 5% 100%);
+        clip-path: polygon(46% 0, 77% 0, 56% 99%, 5% 100%);
+    }
+
+    #message_part .container .massage_banner .massege h2::after {
+        position: absolute;
+        content: '';
+        left: 40px;
+        top: 86px;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        -webkit-clip-path: polygon(26% 0, 69% 0, 56% 99%, 5% 100%);
+        clip-path: polygon(46% 0, 77% 0, 56% 99%, 5% 100%);
+    }
+
+    #message_part .container .massage_banner .massege p {
+        font-size: 13px;
+        margin-top: 75px;
+        text-align: center;
+    }
+
+    #message_part .container .massage_banner .massege p::before {
+        position: absolute;
+        content: '';
+        right: 65px;
+        bottom: -45px;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        -webkit-clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+        clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+    }
+
+    #message_part .container .massage_banner .massege p::after {
+        position: absolute;
+        content: '';
+        right: 38px;
+        bottom: -45px;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        -webkit-clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+        clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+    }
+
+    #message_part {
+        padding: 50px 0 40px;
+    }
+
+
+
+    // =====================   contact part ===================//
+    // =====================   contact part ===================//
+
+
+    #contact_part .container .head h4 {
+        font-size: 42px;
+    }
+
+
+    #contact_part .container .head p {
+        font-size: 17px;
+        margin-left: 0px;
+        margin-top: 10px;
+
+    }
+
+
+    #contact_part .container .contact_form a {
+        font-size: 15px;
+    }
+
+
+    // =====================   subscribe part ===================//
+    // =====================   subscribe part ===================//
+
+
+    #subscribe .container .head h4 {
+        font-size: 47px;
+    }
+
+    #subscribe .container .head p {
+        font-size: 18px;
+        margin-left: 0px;
+        margin-top: 23px;
+    }
+
+    #subscribe {
+        padding: 50px 0 15px;
+    }
+
+
+
+    // =====================   footer part ===================//
+    // =====================   footer part ===================//
+
+    #footer .container .footer_first_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_first_content .logo_text h4 {
+        font-size: 30px;
+    }
+
+    #footer .container .footer_first_content .text p {
+        font-size: 18px;
+    }
+
+
+    #footer .container .footer_second_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_second_content .head h4 {
+        font-size: 25px;
+        margin-bottom: 22px;
+        margin-top: 30px;
+    }
+
+    #footer .container .footer_second_content .all_resource p {
+        font-size: 18px;
+    }
+
+    #footer .container .footer_third_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_third_content .head h4 {
+        font-size: 25px;
+        margin-bottom: 22px;
+        margin-top: 30px;
+    }
+
+    #footer .container .footer_third_content .all_company p {
+        font-size: 18px;
+    }
+
+    #footer .container .footer_fouth_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_fouth_content h4 {
+        font-size: 25px;
+        margin-bottom: 22px;
+        margin-top: 30px;
+    }
+
+    .fa,
+    .fas {
+        color: #18A7B9;
+    }
+
+
+
+    // =====================  blog part ===================//
+    // =====================  blog part ===================//
+
+    #blog {
+        padding: 30px 0 30px;
+    }
+
+    #blog .container .head h4 {
+        font-size: 45px;
+    }
+
+    #blog .container .head p {
+        font-size: 17px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    #blog .container .head {
+        margin-left: 0;
+    }
+
+    #blog .container #boxscroll4 .wrapper::after {
+        display: none;
+    }
+
+    #blog .nicescroll-cursors {
+        width: 10px !important;
+        background: #18A7B9 !important;
+        margin-right: 1px !important;
+        height: 60px !important;
+    }
+
+    #blog .container .second_img {
+        margin-top: 20px;
+    }
+
+}
+
+
+
+//==========================   == ========== small ====== ==  ============================ //
+//==========================   == ========== small ====== ==  ============================ //
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    // =====================  menu part ===================//
+    // =====================  menu part ===================//
+
+
+    .main_menu {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        background: #313131;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .main_menu #navbarSupportedContent {
+        background: #18A7B9;
+        text-align: center;
+    }
+
+    .main_menu .navbar-brand {
+        color: #FAFAFA;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .fa,
+    .fas {
+        color: #FAFAFA;
+    }
+
+    .main_menu .menu_item ul li .current {
+        color: #313131;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .main_menu .menu_item ul li a {
+        color: #fafafa;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        -webkit-transition: all linear .3s;
+        transition: all linear .3s;
+
+        &::after {
+            display: none;
+        }
+
+    }
+
+
+
+    // =====================  banner part ===================//
+    // =====================  banner part ===================//
+
+    #banner_part .container .shape_image .shape_img_one {
+        display: none;
+    }
+
+    #banner_part .container .shape_image .shape_img_two {
+        display: none;
+    }
+
+    #banner_part .container .banner_right .main_img {
+        position: relative;
+    }
+
+    #banner_part .container .banner_right .main_img .overley {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: -10px;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    #banner_part .container .banner_right .main_img img {
+        margin-top: -10px;
+        border-bottom-left-radius: 0;
+        height: 450px;
+    }
+
+    #banner_part .container .banner_left {
+        position: relative;
+    }
+
+    #banner_part .container .banner_left .banner_left_content {
+        position: absolute;
+        left: 50%;
+        top: -277px;
+        transform: translate(-50%, -50%);
+    }
+
+    #banner_part .container .banner_left .banner_left_content h4 {
+        color: #fafafa;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    #banner_part .container .banner_left .banner_left_content p {
+        color: #fafafa;
+        font-size: 16px;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .content_button .explore {
+        padding: 12px 35px;
+        margin-top: 30px;
+        -webkit-transition: all linear .3s;
+        transition: all linear .3s;
+    }
+
+
+    #banner_part .container .banner_left .banner_left_content .content_button a {
+        color: #fafafa;
+        font-size: 16px;
+        text-align: center;
+        padding: 12px 20px;
+        -webkit-transition: all linear .3s;
+        transition: all linear .3s;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .content_button {
+        text-align: center;
+    }
+
+    #banner_part .container .banner_left .left_shape {
+        display: none;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range h3 {
+
+        font-size: 34px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range {
+        margin-top: 1px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range h3 span {
+        font-size: 10px;
+    }
+
+
+    // =====================  Client ===================//
+    // =====================  Client ===================//
+
+    #client_part .container .all_logo {
+        padding: 30px 50px;
+        background: #FAFAFA;
+        border-radius: 60px;
+        margin-top: -42px;
+    }
+
+    #client_part {
+        padding-bottom: 0px;
+    }
+
+
+    // =====================  choose ===================//
+    // =====================  choose ===================//
+
+    #choose .container .choose_right h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #choose .container .choose_left p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #choose .container .choose_left a {
+        padding: 12px 40px;
+        text-align: center;
+    }
+
+    #choose .container .choose_left .submit {
+        text-align: center;
+    }
+
+
+    // =====================  recidence ===================//
+    // =====================  recidence ===================//
+
+    #recidence .container .recidence_right .first_content {
+        margin-top: -80px;
+    }
+
+    #recidence .container .recidence_right .second_content {
+        margin-top: 40px;
+    }
+
+    #recidence .container .recidence_right .third_content {
+        margin-top: 40px;
+    }
+
+    #recidence .container .recidence_left img {
+        height: 660px;
+    }
+
+    #recidence {
+        padding: 30px 0 30px;
+    }
+
+    // =====================  engineer ===================//
+    // =====================  engineer ===================//
+
+
+    #engineer .container .head h4 {
+        font-size: 33px;
+    }
+
+    #engineer .container .head p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    #engineer .container .engineer_slider .eng_box .eng_img img {
+        left: 104px;
+    }
+
+    #engineer .container .engineer_slider .eng_box h4 {
+        font-size: 22px;
+    }
+
+    #engineer .container .engineer_slider .eng_box h6 {
+        font-size: 12px;
+    }
+
+    #engineer {
+        padding: 30px 0 20px;
+    }
+
+
+    // =====================  massage ===================//
+    // =====================  massage ===================//
+
+    #message_part .container .massage_banner .massege h2 {
+        font-size: 30px;
+    }
+
+    #message_part .container .massage_banner .massege h2::before {
+        position: absolute;
+        content: '';
+        left: 67px;
+        top: 86px;
+        width: 40px;
+        height: 35px;
+    }
+
+    #message_part .container .massage_banner .massege h2::after {
+        position: absolute;
+        content: '';
+        left: 36px;
+        top: 86px;
+        width: 40px;
+        height: 35px;
+    }
+
+    #message_part .container .massage_banner .massege p {
+        font-size: 12px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    #message_part .container .massage_banner .massege p::before {
+        right: 100px;
+        bottom: -50px;
+        width: 48px;
+        height: 36px;
+    }
+
+    #message_part .container .massage_banner .massege p::after {
+        right: 67px;
+        bottom: -50px;
+        width: 48px;
+        height: 36px;
+    }
+
+    #message_part .container .massage_banner {
+        padding: 70px 0 150px;
+    }
+
+    #message_part {
+        padding: 50px 0 30px;
+    }
+
+
+    // =====================  contact ===================//
+    // =====================  contact ===================//
+
+    #contact_part .container .head h4 {
+        font-size: 38px;
+    }
+
+    #contact_part .container .head p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    #contact_part .container .contact_form {
+        margin-top: 5px;
+    }
+
+    #contact_part .container .contact_form a {
+        padding: 12px 20px;
+    }
+
+    // =====================  subscribe ===================//
+    // =====================  subscribe ===================//
+
+    #subscribe .container .head h4 {
+        font-size: 38px;
+    }
+
+    #subscribe .container .head h4 span {
+        margin-top: -9px;
+    }
+
+    #subscribe .container .head p {
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    #subscribe .container a {
+        font-size: 15px;
+        padding: 13px 25px;
+        -webkit-transition: all linear .3s;
+        transition: all linear .3s;
+    }
+
+    #subscribe {
+        padding: 50px 0 10px;
+    }
+
+    // =====================  Footer ===================//
+    // =====================  Footer ===================//
+
+    #footer .container .footer_first_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_first_content .logo_text h4 {
+        font-size: 30px;
+    }
+
+    #footer .container .footer_first_content .text p {
+        font-size: 18px;
+    }
+
+
+    #footer .container .footer_second_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_second_content .head h4 {
+        font-size: 25px;
+        margin-bottom: 22px;
+        margin-top: 30px;
+    }
+
+    #footer .container .footer_second_content .all_resource p {
+        font-size: 18px;
+    }
+
+    #footer .container .footer_third_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_third_content .head h4 {
+        font-size: 25px;
+        margin-bottom: 22px;
+        margin-top: 30px;
+    }
+
+    #footer .container .footer_third_content .all_company p {
+        font-size: 18px;
+    }
+
+    #footer .container .footer_fouth_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_fouth_content h4 {
+        font-size: 25px;
+        margin-bottom: 22px;
+        margin-top: 30px;
+    }
+
+    .fa,
+    .fas {
+        color: #18A7B9;
+    }
+
+    // =====================  blog part ===================//
+    // =====================  blog part ===================//
+
+    #blog .container .head {
+        margin-left: 0;
+    }
+
+    #blog .container .head h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 56px;
+        color: #313131;
+        text-align: center;
+    }
+
+    #blog {
+        padding: 40px 0 40px;
+    }
+
+    #blog .container .head p {
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    #blog .nicescroll-cursors {
+        width: 6px !important;
+        margin-right: -3px !important;
+    }
+
+    #blog .container #boxscroll4 .wrapper::after {
+        display: none;
+    }
+
+    #blog .container .blog_image .image_text {
+        top: 53%;
+    }
+
+    #blog .container .blog_image .image_text a {
+        font-size: 15px;
+        padding: 12px 28px;
+        margin-top: 30px;
+    }
+
+    #blog .container .blog_image .img {
+        margin-top: 20px;
+    }
+
+
+}
+
+
+
+//==========================   == ========== small  part Two ====== ==  ============================ //
+//==========================   == ========== small  part Two ====== ==  ============================ //
+
+@media (max-width: 575.98px) {
+
+
+    // =====================  main menu ===================//
+    // =====================  main menu ===================//
+
+    .main_menu {
+        background: #000;
+        top: 0;
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu #navbarSupportedContent {
+        background: #18A7B9;
+    }
+
+    .main_menu .menu_item ul li a {
+        color: #fff;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .main_menu .navbar-brand {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    // =====================  banner part ===================//
+    // =====================  banner part ===================//
+
+    #banner_part .container .banner_right .main_img img {
+        border-bottom-left-radius: 0;
+        margin-top: -10px;
+    }
+
+    #banner_part .container .banner_right .main_img {
+        position: relative;
+    }
+
+    #banner_part .container .banner_right .main_img .overley {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: -10px;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+
+    #banner_part .container .shape_image {
+        display: none;
+    }
+
+    #banner_part .container .banner_left {
+        position: relative;
+    }
+
+
+
+
+    #banner_part .container .banner_left .left_shape {
+        display: none;
+    }
+
+
+    #banner_part .container .banner_left .banner_left_content h4 {
+        color: #fafafa;
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+    #banner_part .container .banner_left .banner_left_content p {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+
+    #banner_part .container .banner_left .banner_left_content .content_button .explore {
+        padding: 10px 25px;
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .content_button a {
+        font-size: 13px;
+        margin-right: -3px;
+        padding: 10px 15px;
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        margin-top: 0;
+        color: #FAFAFA;
+    }
+
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range h3 {
+        font-size: 19px;
+        margin-right: 13px;
+        margin-top: 5px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range h3 span {
+        display: block;
+        color: #6B6B6B;
+        font-size: 5px;
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range h3::after {
+
+        width: 16px;
+        height: 10px;
+    }
+
+    #banner_part .container .banner_left {
+        position: relative;
+    }
+
+    #banner_part .container .banner_left .banner_left_content {
+        position: absolute;
+        left: 137px;
+        top: -261px;
+        transform: translate(-50%, -50%);
+    }
+
+    #banner_part .container .banner_left .banner_left_content .banner_project_range {
+        margin-top: 37px;
+        margin-left: 17px;
+    }
+
+    #banner_part {
+        padding: 60px 0 5px;
+    }
+
+
+
+    // =====================  client ===================//
+    // =====================  client ===================//
+
+    #client_part .container .all_logo {
+        padding: 30px 58px;
+        background: #FAFAFA;
+        border-radius: 60px;
+        margin-top: -22px;
+    }
+
+    #client_part .container .all_logo .logo_four {
+        margin-left: 115px;
+        width: 85px;
+    }
+
+
+
+    // =====================  choose ===================//
+    // =====================  choose ===================//
+
+    #choose {
+        padding: 0px 0;
+    }
+
+    #choose .container .choose_left p {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+
+    #choose .container .choose_left a {
+
+        font-size: 14px;
+        padding: 10px 30px;
+        margin-top: 22px;
+        -webkit-transition: all linear .3s;
+        transition: all linear .3s;
+        margin-left: 86px;
+    }
+
+    #choose .container .choose_right h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+
+    // =====================  recidence ===================//
+    // =====================  recidence ===================//
+
+    #recidence {
+        padding: 30px 0 0;
+    }
+
+    #recidence .container .recidence_left img {
+        height: 350px;
+        border-top-right-radius: 0;
+    }
+
+    #recidence .container .recidence_left {
+        width: 275px;
+    }
+
+
+    #recidence .container .recidence_right .first_content {
+        margin-top: -82px;
+    }
+
+
+    #recidence .container .recidence_right .first_content h4 {
+        font-size: 40px;
+    }
+
+    #recidence .container .recidence_right .first_content h4::after {
+        top: 16px;
+        width: 30px;
+        height: 30px;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+    }
+
+    #recidence .container .recidence_right .first_content p {
+        font-size: 14px;
+    }
+
+    #recidence .container .recidence_right .second_content h4 {
+        font-size: 40px;
+        margin-top: -75px;
+    }
+
+
+    #recidence .container .recidence_right .second_content h4::after {
+        top: 16px;
+        width: 30px;
+        height: 30px;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+    }
+
+    #recidence .container .recidence_right .second_content p {
+        font-size: 14px;
+        margin-top: -75px;
+    }
+
+
+    #recidence .container .recidence_right .third_content h4 {
+        font-size: 40px;
+        margin-top: -75px;
+    }
+
+    #recidence .container .recidence_right .third_content h4::after {
+        top: 16px;
+        width: 30px;
+        height: 30px;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+    }
+
+    #recidence .container .recidence_right .third_content p {
+        font-size: 14px;
+        margin-top: -75px;
+    }
+
+
+    // =====================  massage ===================//
+    // =====================  massage ===================//
+
+    #message_part {
+        padding: 20px 0 25px;
+    }
+
+    #message_part .container .massage_banner {
+        padding: 20px 0 70px;
+    }
+
+    #message_part .container .massage_banner .massege h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 76px;
+        color: #FAFAFA;
+        text-align: center;
+        position: relative;
+    }
+
+    #message_part .container .massage_banner .massege p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 28px;
+        color: #FAFAFA;
+        margin-top: 25px;
+        position: relative;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    #message_part .container .massage_banner .massege h2::before {
+        position: absolute;
+        content: '';
+        left: 12px;
+        top: 70px;
+        width: 30px;
+        height: 25px;
+        background: #fff;
+        -webkit-clip-path: polygon(26% 0, 69% 0, 56% 99%, 5% 100%);
+        clip-path: polygon(46% 0, 77% 0, 56% 99%, 5% 100%);
+    }
+
+
+    #message_part .container .massage_banner .massege h2::after {
+        position: absolute;
+        content: '';
+        left: 35px;
+        top: 70px;
+        width: 30px;
+        height: 25px;
+        background: #fff;
+        -webkit-clip-path: polygon(26% 0, 69% 0, 56% 99%, 5% 100%);
+        clip-path: polygon(46% 0, 77% 0, 56% 99%, 5% 100%);
+    }
+
+
+    #message_part .container .massage_banner .massege p::before {
+        position: absolute;
+        content: '';
+        right: 36px;
+        bottom: -33px;
+        width: 38px;
+        height: 25px;
+        background: #fff;
+        -webkit-clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+        clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+    }
+
+    #message_part .container .massage_banner .massege p::after {
+        position: absolute;
+        content: '';
+        right: 13px;
+        bottom: -33px;
+        width: 38px;
+        height: 25px;
+        background: #fff;
+        -webkit-clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+        clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+    }
+
+
+
+    // =====================  contact ===================//
+    // =====================  contact ===================//
+
+    #contact_part {
+        padding: 5px 0 20px;
+    }
+
+
+    #contact_part .container .head h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 56px;
+        color: #313131;
+    }
+
+    #contact_part .container .head p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        color: #6B6B6B;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #contact_part .container .contact_form {
+        margin-top: -18px;
+    }
+
+    #contact_part .container .contact_form a {
+        font-size: 15px;
+        padding: 10px 12px;
+        border-top-left-radius: 36px;
+        border-bottom-right-radius: 36px;
+        margin-top: 18px;
+        margin-left: 77px;
+    }
+
+
+    // =====================  blog ===================//
+    // =====================  blog ===================// 
+
+    #blog .nicescroll-cursors {
+        width: 5px !important;
+        background: #18A7B9 !important;
+        margin-right: 5px !important;
+        height: 50px !important;
+    }
+
+    #blog .container #boxscroll4 .wrapper::after {
+        display: none;
+    }
+
+    #blog .container .img_break {
+        margin-top: -10px;
+    }
+
+    #blog .container .blog_image .image_text h5 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    #blog .container .blog_image img {
+        height: 250px;
+        margin-top: 13px;
+    }
+
+    #blog .container .head {
+        margin-left: 0px;
+    }
+
+    #blog .container .head h4 {
+        font-size: 25px;
+    }
+
+    #blog .container .blog_image .image_text .submit a {
+        font-size: 11px;
+        padding: 5px 22px;
+        border-top-left-radius: 42px;
+        border-bottom-right-radius: 42px;
+        margin-top: 34px;
+    }
+
+    #blog .container .head p {
+        font-size: 15px;
+        margin-top: 2px;
+
+    }
+
+    #blog .container .blog_image {
+
+        margin-top: -30px;
+    }
+
+    #blog .container .blog_image:nth-child(1) {
+        margin-bottom: 45px;
+    }
+
+    #blog .container .blog_image .image_text {
+        position: absolute;
+        left: 50%;
+        top: 51%;
+    }
+
+    #blog .container .blog_image .image_text a {
+        font-size: 13px;
+        padding: 10px 25px;
+        border-top-left-radius: 42px;
+        border-bottom-right-radius: 42px;
+        margin-top: 34px;
+    }
+
+    #blog {
+        padding-bottom: 0;
+    }
+
+
+
+    // =====================  subscriber ===================//
+    // =====================  subscriber ===================//
+
+    #subscribe {
+        padding: 25px 0 5px;
+    }
+
+    #subscribe .container .head h4 {
+        font-size: 25px;
+
+        span {
+            margin-top: -22px;
+        }
+    }
+
+    #subscribe .container .head p {
+        font-size: 15px;
+        margin-top: 2px;
+    }
+
+    #subscribe .container a {
+        font-size: 14px;
+        padding: 10px 18px;
+        margin-top: 22px;
+    }
+
+
+
+    // =====================  footer ===================//
+    // =====================  footer ===================//
+
+    #footer .container .footer_first_content .logo_text h4 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #footer .container .footer_first_content .text p {
+        font-size: 15px;
+        text-align: center;
+        margin-top: -15px;
+
+        span {
+            margin-top: -6px;
+        }
+    }
+
+    #footer .container .footer_first_content .social {
+        margin-top: 18px;
+        margin-left: 78px;
+    }
+
+    #footer .container .footer_first_content .social a {
+        padding: 3px 8px;
+        background: #18A7B9;
+        color: #fff;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+
+    #footer .container .footer_first_content .social {
+        margin-top: 18px;
+        margin-left: 83px;
+    }
+
+    #footer {
+        padding: 40px 0 20px;
+    }
+
+
+    #footer .container .footer_second_content .head h4 {
+        font-size: 17px;
+        margin-bottom: 17px;
+    }
+
+    #footer .container .footer_second_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_second_content .head {
+
+        margin-top: 20px;
+    }
+
+    #footer .container .footer_second_content .all_resource p {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+
+    #footer .container .footer_third_content .head h4 {
+        font-size: 17px;
+        margin-bottom: 17px;
+    }
+
+    #footer .container .footer_third_content {
+        text-align: center;
+    }
+
+    #footer .container .footer_third_content .head {
+        margin-top: 20px;
+    }
+
+    #footer .container .footer_fouth_content h4 {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+
+    #footer .container .footer_fouth_content {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #footer .container .copy p {
+        font-size: 9px;
+    }
+
+    // =====================  engineer ===================//
+    // =====================  engineer ===================//
+
+    #engineer .container .engineer_slider .eng_box {
+        padding: 10px 0 40px;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+        box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .engineer_slider .slick-slide {
+        padding: 0 17px;
+    }
+
+
+    #engineer .container .engineer_slider .eng_box {
+        padding: 10px 0 17px;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+        box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: -7px;
+    }
+
+    #engineer .container .engineer_slider .eng_box .eng_img img {
+        position: absolute;
+        left: 103px;
+        top: 62px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        height: 80px;
+    }
+
+    #engineer .container .engineer_slider .eng_box ul li a i.fa-ellipsis-v {
+        position: absolute;
+        right: 30px;
+        top: -10px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        color: #313131;
+    }
+
+    #engineer .container .engineer_slider .eng_box ul li a i.fa-star {
+        margin-left: 34px;
+        margin-top: 10px;
+        color: #F0BB00;
+    }
+
+
+    #engineer .container .engineer_slider .eng_box h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+        color: #313131;
+        margin-top: 108px;
+    }
+
+    #engineer .container .engineer_slider .eng_box h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #6B6B6B;
+        margin-top: 29px;
+    }
+
+    #engineer .container .head h4 {
+        font-size: 22px;
+    }
+
+    #engineer .container .head p {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    #engineer .container .engineer_slider .eng_box h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 26px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        color: #18A7B9;
+        margin-top: 10px;
+    }
+
+    #engineer {
+        padding: 30px 0 30px;
+    }
+}
+
+
+
+/* =======******====== responsive Part ======******====== */
+/* =======******====== responsive Part ======******====== */

@@ -1,0 +1,129 @@
+// contact part ==========================================
+
+#contact_part {
+    padding: 20px 0 20px;
+
+    .container {
+        .row{
+            margin-top: 40px;
+        }
+
+        .head{
+            h4 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 56px;
+                color: #313131;
+            }
+    
+            p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                text-align: center;
+                color: #6B6B6B;
+                margin-left: 5px;
+                margin-top: 30px;
+    
+                span {
+                    display: block;
+                }
+            }
+        }
+        
+
+        .contact_form {
+            margin-top: 50px;
+            .send_part_one {
+                input {
+                    height: 40px;
+                    outline: none;
+                    padding: 0 10px;
+                    font-size: 13px;
+                    color: #6B6B6B;
+                    margin: 8px 0;
+                    background: #F9F9F9;
+                    border: 1px solid #F9F9F9;
+                    width: 100%;
+                    transition: all linear .3s;
+
+                    &:hover {
+                        color: #313131;
+                        background: transparent;
+                    }
+                }
+            }
+
+            .send_part_two {
+                input {
+                    height: 40px;
+                    outline: none;
+                    padding: 0 10px;
+                    font-size: 13px;
+                    color: #6B6B6B;
+                    margin: 8px 0;
+                    background: #F9F9F9;
+                    border: 1px solid #F9F9F9;
+                    width: 100%;
+                    transition: all linear .3s;
+
+                    &:hover {
+                        color: #313131;
+                        background: transparent;
+                    }
+                }
+            }
+
+            .send_part_three {
+                textarea {
+                    height: 120px;
+                    outline: none;
+                    padding: 0 10px;
+                    font-size: 13px;
+                    color: #6B6B6B;
+                    margin: 8px 0;
+                    background: #F9F9F9;
+                    border: 1px solid #F9F9F9;
+                    width: 100%;
+                    transition: all linear .3s;
+
+                    &:hover {
+                        color: #313131;
+                        background: transparent;
+                    }
+                }
+            }
+
+            a {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 20px;
+                text-align: center;
+                letter-spacing: -0.5px;
+                color: #313131;
+                padding: 15px 30px;
+                border: 1px solid #18A7B9;
+                border-top-left-radius: 42px;
+                border-bottom-right-radius: 42px;
+                margin-top: 30px;
+                transition: all linear .3s;
+
+                &:hover{
+                    color: #fff;
+                    background: #18A7B9;
+                    -webkit-box-shadow: -2px 34px 32px -10px rgba(24, 167, 185, 0.25);
+                -moz-box-shadow: -2px 34px 32px -10px rgba(24, 167, 185, 0.25);
+                box-shadow: -2px 34px 32px -10px rgba(24, 167, 185, 0.25);
+                }
+            }
+        }
+    }
+}
+
+// contact part ==========================================

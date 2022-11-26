@@ -1,0 +1,90 @@
+// massage ====================================================
+
+#message_part {
+    
+    padding: 50px 0 50px;
+
+    .container {
+        .massage_banner {
+            padding: 70px 0 183px;
+
+            .massege {
+
+                h2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 35px;
+                    line-height: 76px;
+                    color: #FAFAFA;
+                    text-align: center;
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        left: -62px;
+                        top: 86px;
+                        width: 40px;
+                        height: 40px;
+                        background: #fff;
+                        -webkit-clip-path: polygon(26% 0, 69% 0, 56% 99%, 5% 100%);
+                        clip-path: polygon(46% 0, 77% 0, 56% 99%, 5% 100%);
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: '';
+                        left: -33px;
+                        top: 86px;
+                        width: 40px;
+                        height: 40px;
+                        background: #fff;
+                        -webkit-clip-path: polygon(26% 0, 69% 0, 56% 99%, 5% 100%);
+                        clip-path: polygon(46% 0, 77% 0, 56% 99%, 5% 100%);
+                    }
+
+                }
+
+                p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 28px;
+                    color: #FAFAFA;
+                    margin-top: 40px;
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        right: -62px;
+                        bottom: -33px;
+                        width: 40px;
+                        height: 40px;
+                        background: #fff;
+                        -webkit-clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+                        clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+
+
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: '';
+                        right: -33px;
+                        bottom: -33px;
+                        width: 40px;
+                        height: 40px;
+                        background: #fff;
+                        -webkit-clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+                        clip-path: polygon(26% 0, 69% 0, 32% 100%, 5% 100%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// massage ====================================================

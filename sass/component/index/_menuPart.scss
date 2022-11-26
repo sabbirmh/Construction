@@ -1,0 +1,78 @@
+// Menu Part ========================================== //
+
+
+.main_menu {
+    position: absolute;
+    left: 0;
+    top: 38px;
+    z-index: 999;
+    width: 100%;
+
+    .navbar-brand {
+        color: #18A7B9;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .menu_item {
+
+        ul {
+            li {
+                a {
+                    color: #313131;
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                    position: relative;
+                    transition: all linear .3s;
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        left: 43px;
+                        bottom: 0;
+                        width: 4px;
+                        height: 4px;
+                        background: #313131;
+                        visibility: hidden;
+                        transition: all linear .3s;
+
+                    }
+
+                    &:hover {
+                        &::after {
+                            visibility: visible;
+                        }
+                    }
+                }
+
+                .current {
+                    color: #313131;
+                    font-weight: 600;
+                    position: relative;
+
+                    &::after {
+                        display: none;
+                    }
+
+                    &::before {
+
+                        position: absolute;
+                        content: '';
+                        left: 32px;
+                        bottom: 0;
+                        width: 4px;
+                        height: 4px;
+                        background: #313131;
+
+                        transition: all linear .3s;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+// Menu Part ========================================== //
